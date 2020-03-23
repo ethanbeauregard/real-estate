@@ -61,16 +61,50 @@
   float: left;
   display: inline-block;
   padding: 15px;
+  background: $offwhite;
   .search-area {
     input[type="text"] {
       width: 70%;
       background: transparent;
       border: none;
-      font-size: 2rem;
+      font-size: 1.4rem;
       border-bottom: 2px solid $darkgrey;
       margin-bottom: 20px;
+      color: $lightgrey;
       &:focus {
         outline: none;
+      }
+    }
+  }
+  .sortby-area {
+    margin-bottom: 20px;
+
+    .results {
+      font-size: .9rem;
+      color: $lightgrey;
+      display: inline-block;
+      vertical-align: bottom;
+      padding-top: 3px;
+    }
+    .sort-options {
+      float: right;
+
+      select {
+        font-size: .9rem;
+        border: 1px solid $lightgrey;
+        font-weight: 300;
+        background: transparent;
+        display: inline-block;
+        margin-right: 15px;
+        vertical-align: top;
+      }
+      .view {
+        display: inline-block;
+
+        .fas {
+          font-size: 1.4rem;
+          margin-right: 15px;
+        }
       }
     }
   }

@@ -300,7 +300,7 @@ var Listings = function (_Component) {
           { className: 'sortby-area' },
           _react2.default.createElement(
             'div',
-            null,
+            { className: 'results' },
             '380 results found'
           ),
           _react2.default.createElement(
