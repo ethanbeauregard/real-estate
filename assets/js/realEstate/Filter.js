@@ -14,6 +14,7 @@ export default class Filter extends Component {
         <div className="inside">
           <h4>Filter</h4>
           <select name="neighborhood" className="filter neighborhood">
+            <option selected disabled>Neighborhood</option>
             <option>Ridgewood</option>
           </select>
           <select name="houseType" className="filter houseType">

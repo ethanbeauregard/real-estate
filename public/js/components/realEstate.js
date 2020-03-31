@@ -57,6 +57,11 @@ var Filter = function (_Component) {
             { name: 'neighborhood', className: 'filter neighborhood' },
             _react2.default.createElement(
               'option',
+              { selected: true, disabled: true },
+              'Neighborhood'
+            ),
+            _react2.default.createElement(
+              'option',
               null,
               'Ridgewood'
             )

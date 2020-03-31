@@ -59,7 +59,11 @@ export default class Listings extends Component {
               </span>
             </div>
           </div>
+
         </section>
+
+  
+        
 
         <section className="pagination">
           <ul className="pagination-nums">
